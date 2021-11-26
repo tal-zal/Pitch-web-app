@@ -1,0 +1,36 @@
+body {
+    min-height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/T0Mw3xx.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.blockGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+
+.block {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #FFF365;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+
+    
+}
